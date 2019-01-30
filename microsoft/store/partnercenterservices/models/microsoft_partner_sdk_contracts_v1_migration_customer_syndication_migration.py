@@ -29,7 +29,7 @@ class MicrosoftPartnerSdkContractsV1MigrationCustomerSyndicationMigration(Model)
     :param migrated_subscriptions: Gets or sets the migrated CSP
      subscriptions.
     :type migrated_subscriptions:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSubscriptionSyndicationMigrationStatus]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSubscriptionSyndicationMigrationStatus]
     """
 
     _attribute_map = {

@@ -27,10 +27,10 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceBatchCreationRequest(M
      hardwareHash only, productKey only, serialNumber + oemManufacturerName +
      modelName.
     :type devices:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

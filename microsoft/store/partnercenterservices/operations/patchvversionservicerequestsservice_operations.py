@@ -39,7 +39,7 @@ class PatchvversionservicerequestsserviceOperations(object):
         :type service_request_id: str
         :param service_request: Service Request With details to update
         :type service_request:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -59,7 +59,7 @@ class PatchvversionservicerequestsserviceOperations(object):
         :return: MicrosoftPartnerSdkContractsV1ServiceRequest or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

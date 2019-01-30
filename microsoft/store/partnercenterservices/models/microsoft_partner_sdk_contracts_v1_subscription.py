@@ -62,7 +62,7 @@ class MicrosoftPartnerSdkContractsV1Subscription(Model):
     :type commitment_end_date: datetime
     :param status: Gets or sets the subscription status. Possible values
      include: 'none', 'active', 'suspended', 'deleted'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param auto_renew_enabled: Gets or sets a value indicating whether the
      subscription is renewed automatically.
     :type auto_renew_enabled: bool
@@ -73,12 +73,14 @@ class MicrosoftPartnerSdkContractsV1Subscription(Model):
      is billed. For example, "usage" or "license".
      Revisit this property - do we need this having UnitType. Possible values
      include: 'none', 'usage', 'license'
-    :type billing_type: str or ~azure.partnercenterservices.models.enum
+    :type billing_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param billing_cycle: Gets or sets a value indicating the frequency with
      which the partner is billed for this subscription.
      The default value is monthly. Possible values include: 'unknown',
      'monthly', 'annual', 'none', 'one_time'
-    :type billing_cycle: str or ~azure.partnercenterservices.models.enum
+    :type billing_cycle: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param actions: Gets or sets the actions.
     :type actions: list[str]
     :param partner_id: Gets or sets the MPN ID of the reseller of record, used
@@ -99,15 +101,16 @@ class MicrosoftPartnerSdkContractsV1Subscription(Model):
     :ivar contract_type: Read-only. Gets the type of the contract. For
      example, "subscription". Possible values include: 'subscription',
      'product_key', 'redemption_code'
-    :vartype contract_type: str or ~azure.partnercenterservices.models.enum
+    :vartype contract_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param links: Gets or sets the subscription links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksSubscriptionLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksSubscriptionLinks
     :param order_id: The order identifier.
     :type order_id: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

@@ -29,26 +29,27 @@ class MicrosoftPartnerSdkContractsV1Order(Model):
      The default is "Monthly" at order creation. This field is applied upon
      successful creation of the order. Possible values include: 'unknown',
      'monthly', 'annual', 'none', 'one_time'
-    :type billing_cycle: str or ~azure.partnercenterservices.models.enum
+    :type billing_cycle: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param currency_code: Gets or sets the currency code.
     :type currency_code: str
     :param line_items: Gets or sets an itemized list of the offers the
      customer is purchasing.
      Each order line item refers to the purchase data for one offer.
     :type line_items:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrderLineItem]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrderLineItem]
     :param creation_date: Gets or sets the date and time the order was
      created.
     :type creation_date: datetime
     :param status: Gets or sets the order status. Possible values include:
      'unknown', 'completed', 'pending', 'cancelled'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param links: Gets or sets the links corresponding to the order.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LinksOrderLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LinksOrderLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

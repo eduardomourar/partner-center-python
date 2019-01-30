@@ -15,7 +15,8 @@ class MicrosoftPartnerSdkContractsV1QuerySort(Model):
     :type sort_field: str
     :param sort_direction: Gets or sets the sort direction. Possible values
      include: 'ascending', 'descending'
-    :type sort_direction: str or ~azure.partnercenterservices.models.enum
+    :type sort_direction: str or
+     ~microsoft.store.partnercenterservices.models.enum
     """
 
     _attribute_map = {

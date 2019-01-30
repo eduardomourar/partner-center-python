@@ -25,15 +25,15 @@ class MicrosoftPartnerSdkContractsV1CustomerCompanyProfile(Model):
     :type company_name: str
     :param address: The default address for the customer's company.
     :type address:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
     :param email: The email address for the customer's company.
     :type email: str
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

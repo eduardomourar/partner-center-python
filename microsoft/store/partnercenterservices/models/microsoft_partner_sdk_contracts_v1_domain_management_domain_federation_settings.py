@@ -34,17 +34,17 @@ class MicrosoftPartnerSdkContractsV1DomainManagementDomainFederationSettings(Mod
     :param preferred_authentication_protocol: Preferred authentication
      protocol. Possible values include: 'ws_fed', 'samlp'
     :type preferred_authentication_protocol: str or
-     ~azure.partnercenterservices.models.enum
+     ~microsoft.store.partnercenterservices.models.enum
     :param prompt_login_behavior: Prompt login behavior. Possible values
      include: 'translate_to_fresh_password_auth', 'native_support', 'disabled'
     :type prompt_login_behavior: str or
-     ~azure.partnercenterservices.models.enum
+     ~microsoft.store.partnercenterservices.models.enum
     :param signing_certificate: Signing Certificate
     :type signing_certificate: str
     :param signing_certificate_update_status: Signing certificate update
      status
     :type signing_certificate_update_status:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementSigningCertificateUpdateStatus
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementSigningCertificateUpdateStatus
     :param supports_mfa: Supports MFA?
     :type supports_mfa: bool
     """

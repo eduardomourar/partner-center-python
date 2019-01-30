@@ -81,69 +81,69 @@ class MicrosoftPartnerStoreApis(object):
     :vartype config: MicrosoftPartnerStoreApisConfiguration
 
     :ivar getvversionoffersoffer: Getvversionoffersoffer operations
-    :vartype getvversionoffersoffer: azure.partnercenterservices.operations.GetvversionoffersofferOperations
+    :vartype getvversionoffersoffer: microsoft.store.partnercenterservices.operations.GetvversionoffersofferOperations
     :ivar getvversioncustomerscustomer: Getvversioncustomerscustomer operations
-    :vartype getvversioncustomerscustomer: azure.partnercenterservices.operations.GetvversioncustomerscustomerOperations
+    :vartype getvversioncustomerscustomer: microsoft.store.partnercenterservices.operations.GetvversioncustomerscustomerOperations
     :ivar postvversioncustomerscustomer: Postvversioncustomerscustomer operations
-    :vartype postvversioncustomerscustomer: azure.partnercenterservices.operations.PostvversioncustomerscustomerOperations
+    :vartype postvversioncustomerscustomer: microsoft.store.partnercenterservices.operations.PostvversioncustomerscustomerOperations
     :ivar getvversioncustomersfilterfilter: Getvversioncustomersfilterfilter operations
-    :vartype getvversioncustomersfilterfilter: azure.partnercenterservices.operations.GetvversioncustomersfilterfilterOperations
+    :vartype getvversioncustomersfilterfilter: microsoft.store.partnercenterservices.operations.GetvversioncustomersfilterfilterOperations
     :ivar deletevversioncustomerscustomer: Deletevversioncustomerscustomer operations
-    :vartype deletevversioncustomerscustomer: azure.partnercenterservices.operations.DeletevversioncustomerscustomerOperations
+    :vartype deletevversioncustomerscustomer: microsoft.store.partnercenterservices.operations.DeletevversioncustomerscustomerOperations
     :ivar patchvversioncustomerscustomer: Patchvversioncustomerscustomer operations
-    :vartype patchvversioncustomerscustomer: azure.partnercenterservices.operations.PatchvversioncustomerscustomerOperations
+    :vartype patchvversioncustomerscustomer: microsoft.store.partnercenterservices.operations.PatchvversioncustomerscustomerOperations
     :ivar putvversioncustomerscustomer: Putvversioncustomerscustomer operations
-    :vartype putvversioncustomerscustomer: azure.partnercenterservices.operations.PutvversioncustomerscustomerOperations
+    :vartype putvversioncustomerscustomer: microsoft.store.partnercenterservices.operations.PutvversioncustomerscustomerOperations
     :ivar postvversiondomainsdomaincustomer: Postvversiondomainsdomaincustomer operations
-    :vartype postvversiondomainsdomaincustomer: azure.partnercenterservices.operations.PostvversiondomainsdomaincustomerOperations
+    :vartype postvversiondomainsdomaincustomer: microsoft.store.partnercenterservices.operations.PostvversiondomainsdomaincustomerOperations
     :ivar headvversioncustomerscustomer: Headvversioncustomerscustomer operations
-    :vartype headvversioncustomerscustomer: azure.partnercenterservices.operations.HeadvversioncustomerscustomerOperations
+    :vartype headvversioncustomerscustomer: microsoft.store.partnercenterservices.operations.HeadvversioncustomerscustomerOperations
     :ivar putvversionusersuser: Putvversionusersuser operations
-    :vartype putvversionusersuser: azure.partnercenterservices.operations.PutvversionusersuserOperations
+    :vartype putvversionusersuser: microsoft.store.partnercenterservices.operations.PutvversionusersuserOperations
     :ivar getvversionusersuser: Getvversionusersuser operations
-    :vartype getvversionusersuser: azure.partnercenterservices.operations.GetvversionusersuserOperations
+    :vartype getvversionusersuser: microsoft.store.partnercenterservices.operations.GetvversionusersuserOperations
     :ivar getvversionofferscountrycountry: Getvversionofferscountrycountry operations
-    :vartype getvversionofferscountrycountry: azure.partnercenterservices.operations.GetvversionofferscountrycountryOperations
+    :vartype getvversionofferscountrycountry: microsoft.store.partnercenterservices.operations.GetvversionofferscountrycountryOperations
     :ivar getvversionoffercategoriescountrycountry: Getvversionoffercategoriescountrycountry operations
-    :vartype getvversionoffercategoriescountrycountry: azure.partnercenterservices.operations.GetvversionoffercategoriescountrycountryOperations
+    :vartype getvversionoffercategoriescountrycountry: microsoft.store.partnercenterservices.operations.GetvversionoffercategoriescountrycountryOperations
     :ivar getvversionprofileslegalbusinessvetting_versionvetting_version: GetvversionprofileslegalbusinessvettingVersionvettingVersion operations
-    :vartype getvversionprofileslegalbusinessvetting_versionvetting_version: azure.partnercenterservices.operations.GetvversionprofileslegalbusinessvettingVersionvettingVersionOperations
+    :vartype getvversionprofileslegalbusinessvetting_versionvetting_version: microsoft.store.partnercenterservices.operations.GetvversionprofileslegalbusinessvettingVersionvettingVersionOperations
     :ivar getvversionprofilespartnernetworkprofilempn_idmpn_id: GetvversionprofilespartnernetworkprofilempnIdmpnId operations
-    :vartype getvversionprofilespartnernetworkprofilempn_idmpn_id: azure.partnercenterservices.operations.GetvversionprofilespartnernetworkprofilempnIdmpnIdOperations
+    :vartype getvversionprofilespartnernetworkprofilempn_idmpn_id: microsoft.store.partnercenterservices.operations.GetvversionprofilespartnernetworkprofilempnIdmpnIdOperations
     :ivar getvversionprofilesmpnmpn_idmpn_id: GetvversionprofilesmpnmpnIdmpnId operations
-    :vartype getvversionprofilesmpnmpn_idmpn_id: azure.partnercenterservices.operations.GetvversionprofilesmpnmpnIdmpnIdOperations
+    :vartype getvversionprofilesmpnmpn_idmpn_id: microsoft.store.partnercenterservices.operations.GetvversionprofilesmpnmpnIdmpnIdOperations
     :ivar getvversionrelationshipsrelationship: Getvversionrelationshipsrelationship operations
-    :vartype getvversionrelationshipsrelationship: azure.partnercenterservices.operations.GetvversionrelationshipsrelationshipOperations
+    :vartype getvversionrelationshipsrelationship: microsoft.store.partnercenterservices.operations.GetvversionrelationshipsrelationshipOperations
     :ivar getvversionrelationshipspartner: Getvversionrelationshipspartner operations
-    :vartype getvversionrelationshipspartner: azure.partnercenterservices.operations.GetvversionrelationshipspartnerOperations
+    :vartype getvversionrelationshipspartner: microsoft.store.partnercenterservices.operations.GetvversionrelationshipspartnerOperations
     :ivar patchvversionrelationshipspartner: Patchvversionrelationshipspartner operations
-    :vartype patchvversionrelationshipspartner: azure.partnercenterservices.operations.PatchvversionrelationshipspartnerOperations
+    :vartype patchvversionrelationshipspartner: microsoft.store.partnercenterservices.operations.PatchvversionrelationshipspartnerOperations
     :ivar getvversionratecardsazurecurrencycurrency: Getvversionratecardsazurecurrencycurrency operations
-    :vartype getvversionratecardsazurecurrencycurrency: azure.partnercenterservices.operations.GetvversionratecardsazurecurrencycurrencyOperations
+    :vartype getvversionratecardsazurecurrencycurrency: microsoft.store.partnercenterservices.operations.GetvversionratecardsazurecurrencycurrencyOperations
     :ivar getvversionratecardsazure_sharedcurrencycurrency: GetvversionratecardsazureSharedcurrencycurrency operations
-    :vartype getvversionratecardsazure_sharedcurrencycurrency: azure.partnercenterservices.operations.GetvversionratecardsazureSharedcurrencycurrencyOperations
+    :vartype getvversionratecardsazure_sharedcurrencycurrency: microsoft.store.partnercenterservices.operations.GetvversionratecardsazureSharedcurrencycurrencyOperations
     :ivar getvversioncustomersrelationshiprequestsindirect_cloud_solution_provider_idindirect_cloud_solution_provider_id: GetvversioncustomersrelationshiprequestsindirectCloudSolutionProviderIdindirectCloudSolutionProviderId operations
-    :vartype getvversioncustomersrelationshiprequestsindirect_cloud_solution_provider_idindirect_cloud_solution_provider_id: azure.partnercenterservices.operations.GetvversioncustomersrelationshiprequestsindirectCloudSolutionProviderIdindirectCloudSolutionProviderIdOperations
+    :vartype getvversioncustomersrelationshiprequestsindirect_cloud_solution_provider_idindirect_cloud_solution_provider_id: microsoft.store.partnercenterservices.operations.GetvversioncustomersrelationshiprequestsindirectCloudSolutionProviderIdindirectCloudSolutionProviderIdOperations
     :ivar getvversionrolesrole: Getvversionrolesrole operations
-    :vartype getvversionrolesrole: azure.partnercenterservices.operations.GetvversionrolesroleOperations
+    :vartype getvversionrolesrole: microsoft.store.partnercenterservices.operations.GetvversionrolesroleOperations
     :ivar postvversionrolesrole: Postvversionrolesrole operations
-    :vartype postvversionrolesrole: azure.partnercenterservices.operations.PostvversionrolesroleOperations
+    :vartype postvversionrolesrole: microsoft.store.partnercenterservices.operations.PostvversionrolesroleOperations
     :ivar deletevversionrolesrole: Deletevversionrolesrole operations
-    :vartype deletevversionrolesrole: azure.partnercenterservices.operations.DeletevversionrolesroleOperations
+    :vartype deletevversionrolesrole: microsoft.store.partnercenterservices.operations.DeletevversionrolesroleOperations
     :ivar getvversionserviceincidentsofficefilterfilter: Getvversionserviceincidentsofficefilterfilter operations
-    :vartype getvversionserviceincidentsofficefilterfilter: azure.partnercenterservices.operations.GetvversionserviceincidentsofficefilterfilterOperations
+    :vartype getvversionserviceincidentsofficefilterfilter: microsoft.store.partnercenterservices.operations.GetvversionserviceincidentsofficefilterfilterOperations
     :ivar getvversionserviceincidentsofficecountfilterfilter: Getvversionserviceincidentsofficecountfilterfilter operations
-    :vartype getvversionserviceincidentsofficecountfilterfilter: azure.partnercenterservices.operations.GetvversionserviceincidentsofficecountfilterfilterOperations
+    :vartype getvversionserviceincidentsofficecountfilterfilter: microsoft.store.partnercenterservices.operations.GetvversionserviceincidentsofficecountfilterfilterOperations
     :ivar getvversionservicerequestsfilterfilter: Getvversionservicerequestsfilterfilter operations
-    :vartype getvversionservicerequestsfilterfilter: azure.partnercenterservices.operations.GetvversionservicerequestsfilterfilterOperations
+    :vartype getvversionservicerequestsfilterfilter: microsoft.store.partnercenterservices.operations.GetvversionservicerequestsfilterfilterOperations
     :ivar getvversionservicerequestsservice: Getvversionservicerequestsservice operations
-    :vartype getvversionservicerequestsservice: azure.partnercenterservices.operations.GetvversionservicerequestsserviceOperations
+    :vartype getvversionservicerequestsservice: microsoft.store.partnercenterservices.operations.GetvversionservicerequestsserviceOperations
     :ivar patchvversionservicerequestsservice: Patchvversionservicerequestsservice operations
-    :vartype patchvversionservicerequestsservice: azure.partnercenterservices.operations.PatchvversionservicerequestsserviceOperations
+    :vartype patchvversionservicerequestsservice: microsoft.store.partnercenterservices.operations.PatchvversionservicerequestsserviceOperations
     :ivar postvversionservicerequestsagent: Postvversionservicerequestsagent operations
-    :vartype postvversionservicerequestsagent: azure.partnercenterservices.operations.PostvversionservicerequestsagentOperations
+    :vartype postvversionservicerequestsagent: microsoft.store.partnercenterservices.operations.PostvversionservicerequestsagentOperations
     :ivar getvversionvalidationscheckdomainavailabilitydomain: Getvversionvalidationscheckdomainavailabilitydomain operations
-    :vartype getvversionvalidationscheckdomainavailabilitydomain: azure.partnercenterservices.operations.GetvversionvalidationscheckdomainavailabilitydomainOperations
+    :vartype getvversionvalidationscheckdomainavailabilitydomain: microsoft.store.partnercenterservices.operations.GetvversionvalidationscheckdomainavailabilitydomainOperations
 
     :param credentials: Credentials needed for the client to connect to Azure.
     :type credentials: :mod:`A msrestazure Credentials
@@ -252,7 +252,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1CountryValidationRules or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CountryValidationRules
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CountryValidationRules
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -308,7 +308,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param customer_profile: The new customer information.
         :type customer_profile:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -328,7 +328,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1Customer or ClientRawResponse
          if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -405,7 +405,7 @@ class MicrosoftPartnerStoreApis(object):
          MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementCustomerMonthlyUsageRecord
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementCustomerMonthlyUsageRecord
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementCustomerMonthlyUsageRecord
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -549,7 +549,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1FlightInsiderProgram or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FlightInsiderProgram
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FlightInsiderProgram
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -604,7 +604,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param insider_program: Program to be opted in/out of
         :type insider_program:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FlightInsiderProgram
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FlightInsiderProgram
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -624,7 +624,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1FlightInsiderProgram or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FlightInsiderProgram
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FlightInsiderProgram
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -683,7 +683,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param migration_batch: Migration batch to be created.
         :type migration_batch:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigration
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigration
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -703,7 +703,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1MigrationSyndicationMigration
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigration
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigration
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -784,7 +784,7 @@ class MicrosoftPartnerStoreApis(object):
          MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -863,7 +863,7 @@ class MicrosoftPartnerStoreApis(object):
          MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -938,7 +938,7 @@ class MicrosoftPartnerStoreApis(object):
          MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesDeploymentInsights
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesDeploymentInsights
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesDeploymentInsights
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1011,7 +1011,7 @@ class MicrosoftPartnerStoreApis(object):
          MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesUsageInsights or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesUsageInsights
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesUsageInsights
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1083,7 +1083,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1OrganizationProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrganizationProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrganizationProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1138,7 +1138,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param organization_profile: organization profile to update
         :type organization_profile:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrganizationProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrganizationProfile
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -1158,7 +1158,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1OrganizationProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrganizationProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OrganizationProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1217,7 +1217,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param legal_business_profile: Legal business profile to update
         :type legal_business_profile:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LegalBusinessProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LegalBusinessProfile
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -1237,7 +1237,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1LegalBusinessProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LegalBusinessProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LegalBusinessProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1313,7 +1313,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1SupportProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SupportProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SupportProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1368,7 +1368,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param support_profile: Support profile to update
         :type support_profile:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SupportProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SupportProfile
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -1388,7 +1388,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1SupportProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SupportProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SupportProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1464,7 +1464,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1BillingProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1BillingProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1BillingProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1519,7 +1519,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param billing_profile: Billing profile to update
         :type billing_profile:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1BillingProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1BillingProfile
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -1539,7 +1539,7 @@ class MicrosoftPartnerStoreApis(object):
         :return: MicrosoftPartnerSdkContractsV1BillingProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1BillingProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1BillingProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1616,7 +1616,7 @@ class MicrosoftPartnerStoreApis(object):
          MicrosoftPartnerSdkContractsV1UsageManagementPartnerUsageSummary or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementPartnerUsageSummary
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementPartnerUsageSummary
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1833,7 +1833,7 @@ class MicrosoftPartnerStoreApis(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SupportTopic
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SupportTopic
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SupportTopic
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1939,7 +1939,7 @@ class MicrosoftPartnerStoreApis(object):
 
         :param address: The address.
         :type address:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in

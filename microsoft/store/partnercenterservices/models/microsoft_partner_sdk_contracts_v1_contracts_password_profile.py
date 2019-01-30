@@ -14,7 +14,7 @@ class MicrosoftPartnerSdkContractsV1ContractsPasswordProfile(Model):
 
     :param password: Gets or sets the password.
     :type password:
-     ~azure.partnercenterservices.models.SystemSecuritySecureString
+     ~microsoft.store.partnercenterservices.models.SystemSecuritySecureString
     :param force_change_password: Gets or sets a value indicating whether the
      password must be forcibly changed on the next login.
     :type force_change_password: bool

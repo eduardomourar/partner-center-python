@@ -75,7 +75,7 @@ class GetvversionrelationshipspartnerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1PartnerRelationship
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1PartnerRelationship
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1PartnerRelationship
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

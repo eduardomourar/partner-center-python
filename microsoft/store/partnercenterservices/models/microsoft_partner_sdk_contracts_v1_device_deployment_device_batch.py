@@ -29,13 +29,13 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceBatch(Model):
     :param devices_link: Gets or sets a link to the devices contained in this
      batch.
     :type devices_link:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

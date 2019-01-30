@@ -29,10 +29,11 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsConversion(Model):
     :param billing_cycle: Indicates how often the partner is charged for the
      subscription. Possible values include: 'unknown', 'monthly', 'annual',
      'none', 'one_time'
-    :type billing_cycle: str or ~azure.partnercenterservices.models.enum
+    :type billing_cycle: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

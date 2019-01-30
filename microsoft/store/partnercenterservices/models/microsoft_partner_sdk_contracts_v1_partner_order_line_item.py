@@ -15,7 +15,7 @@ class MicrosoftPartnerSdkContractsV1PartnerOrderLineItem(Model):
     :type id: str
     :param offer: The offer information.
     :type offer:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1PartnerOffer
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1PartnerOffer
     :param quantity: Quantity of item sold.
     :type quantity: int
     :param subtotal: The amount of the order before taxes are applied.

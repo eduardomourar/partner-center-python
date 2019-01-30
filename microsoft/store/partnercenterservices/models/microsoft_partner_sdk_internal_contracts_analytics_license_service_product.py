@@ -37,7 +37,7 @@ class MicrosoftPartnerSdkInternalContractsAnalyticsLicenseServiceProduct(Model):
      and product.
      ToDo: get right terminology from Graph/crest apis
     :type licensed_workloads:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsLicenseWorkload]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsLicenseWorkload]
     """
 
     _attribute_map = {

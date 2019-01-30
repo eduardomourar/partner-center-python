@@ -43,7 +43,7 @@ class MicrosoftPartnerSdkContractsV1UsageManagementAzureResourceMonthlyUsageReco
     :type last_modified_date: datetime
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

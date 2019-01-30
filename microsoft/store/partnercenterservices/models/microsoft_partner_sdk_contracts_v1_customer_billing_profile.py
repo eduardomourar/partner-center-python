@@ -36,13 +36,13 @@ class MicrosoftPartnerSdkContractsV1CustomerBillingProfile(Model):
     :param default_address: The default address for the customer.
      The address that bills are sent to, where the billing contact works.
     :type default_address:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

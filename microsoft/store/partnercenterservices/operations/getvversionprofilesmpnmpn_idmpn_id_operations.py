@@ -58,7 +58,7 @@ class GetvversionprofilesmpnmpnIdmpnIdOperations(object):
         :return: MicrosoftPartnerSdkContractsV1MpnProfile or ClientRawResponse
          if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MpnProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MpnProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

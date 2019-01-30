@@ -21,7 +21,7 @@ class MicrosoftPartnerSdkContractsV1OrganizationProfile(Model):
     :param default_address: Gets or sets the default address of the company or
      organization.
     :type default_address:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
     :param tenant_id: Gets or sets the tenant identifier.
     :type tenant_id: str
     :param domain: Gets or sets the company or organization's domain.
@@ -36,13 +36,14 @@ class MicrosoftPartnerSdkContractsV1OrganizationProfile(Model):
     :ivar profile_type: Gets the partner profile type. Possible values
      include: 'mpn_profile', 'billing_profile', 'support_profile',
      'legal_business_profile', 'organization_profile'
-    :vartype profile_type: str or ~azure.partnercenterservices.models.enum
+    :vartype profile_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

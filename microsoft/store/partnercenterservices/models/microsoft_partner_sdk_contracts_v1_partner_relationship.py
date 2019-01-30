@@ -23,7 +23,8 @@ class MicrosoftPartnerSdkContractsV1PartnerRelationship(Model):
     :param relationship_type: Gets or sets the type of relationship. Possible
      values include: 'none', 'is_indirect_reseller_of',
      'is_indirect_cloud_solution_provider_of'
-    :type relationship_type: str or ~azure.partnercenterservices.models.enum
+    :type relationship_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param state: Gets or sets the state of the relationship. (Example :
      "active")
     :type state: str
@@ -34,7 +35,7 @@ class MicrosoftPartnerSdkContractsV1PartnerRelationship(Model):
     :type location: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

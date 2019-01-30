@@ -21,7 +21,7 @@ class MicrosoftPartnerSdkContractsV1CommonLink(Model):
     :vartype method: str
     :ivar headers: Gets the link headers.
     :vartype headers:
-     list[~azure.partnercenterservices.models.SystemCollectionsGenericKeyValuePairSystemStringSystemString]
+     list[~microsoft.store.partnercenterservices.models.SystemCollectionsGenericKeyValuePairSystemStringSystemString]
     """
 
     _validation = {

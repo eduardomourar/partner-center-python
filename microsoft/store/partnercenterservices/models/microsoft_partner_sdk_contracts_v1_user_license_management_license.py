@@ -20,14 +20,14 @@ class MicrosoftPartnerSdkContractsV1UserLicenseManagementLicense(Model):
      For example, Delve is a service plan which a user is either assigned to
      use or can be assigned to use.
     :type service_plans:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementServicePlan]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementServicePlan]
     :param product_sku: Gets or sets the SKU of the product that corresponds
      to the license.
     :type product_sku:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementProductSku
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementProductSku
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

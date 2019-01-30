@@ -14,7 +14,7 @@ class MicrosoftPartnerSdkContractsV1ServiceRequestContact(Model):
     :param organization: Gets or sets the organization for which the service
      request is created.
     :type organization:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestOrganization
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestOrganization
     :param contact_id: Gets or sets the contact's unique identifier.
     :type contact_id: str
     :param last_name: Gets or sets the last name of the contact.

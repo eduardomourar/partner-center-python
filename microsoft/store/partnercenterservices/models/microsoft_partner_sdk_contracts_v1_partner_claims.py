@@ -16,7 +16,7 @@ class MicrosoftPartnerSdkContractsV1PartnerClaims(Model):
      claims (the account roles and user roles for each of the accounts in the
      connected account system).
     :type authorization_claims:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1AuthorizationClaims]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1AuthorizationClaims]
     :param cloud_instance_name: Gets or sets the national cloud instance name
      (ex. Global, China, Germany, UnitedStatesGovernment etc.).
     :type cloud_instance_name: str

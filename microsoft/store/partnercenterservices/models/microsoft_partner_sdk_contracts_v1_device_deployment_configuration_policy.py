@@ -22,7 +22,7 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy(Model):
     :type name: str
     :param category: Gets or sets the category of the policy. Possible values
      include: 'none', 'o_o_b_e'
-    :type category: str or ~azure.partnercenterservices.models.enum
+    :type category: str or ~microsoft.store.partnercenterservices.models.enum
     :param description: Gets or sets the policy description.
     :type description: str
     :param devices_assigned_count: Gets or sets the number of devices assigned
@@ -38,10 +38,10 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy(Model):
     :type last_modified_date: datetime
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

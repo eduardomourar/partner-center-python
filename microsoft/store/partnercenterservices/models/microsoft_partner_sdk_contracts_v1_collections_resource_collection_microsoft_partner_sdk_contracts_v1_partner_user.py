@@ -19,13 +19,13 @@ class MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartne
     :vartype total_count: int
     :ivar items: Gets the collection items.
     :vartype items:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1PartnerUser]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1PartnerUser]
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

@@ -16,13 +16,13 @@ class MicrosoftPartnerSdkContractsV1InternalAccountSettingsAccountSetting(Model)
 
     :param key: Gets or sets the setting key. Possible values include:
      'third_party_domain_purchases', 'public_site_purchases'
-    :type key: str or ~azure.partnercenterservices.models.enum
+    :type key: str or ~microsoft.store.partnercenterservices.models.enum
     :param value: Gets or sets a value indicating whether the setting is
      active or not.
     :type value: bool
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

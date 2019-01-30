@@ -45,7 +45,7 @@ class PutvversionusersuserOperations(object):
         :type channel_type: str
         :param communication_preference: communication preference
         :type communication_preference:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceCommunicationPreference
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceCommunicationPreference
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -64,7 +64,7 @@ class PutvversionusersuserOperations(object):
          overrides<msrest:optionsforoperations>`.
         :return: list or ClientRawResponse if raw=true
         :rtype:
-         list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceNotificationPreference]
+         list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceNotificationPreference]
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

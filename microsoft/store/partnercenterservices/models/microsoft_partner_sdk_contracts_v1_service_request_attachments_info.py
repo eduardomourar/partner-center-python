@@ -18,10 +18,10 @@ class MicrosoftPartnerSdkContractsV1ServiceRequestAttachmentsInfo(Model):
     :type workspace_id: str
     :param attachments: Gets or sets the attachments in a SR.
     :type attachments:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FileInfo]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FileInfo]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

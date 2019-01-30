@@ -16,12 +16,12 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsConversionError(Model):
 
     :param code: The error code associated with the issue. Possible values
      include: 'other', 'conversions_not_found'
-    :type code: str or ~azure.partnercenterservices.models.enum
+    :type code: str or ~microsoft.store.partnercenterservices.models.enum
     :param description: The friendly text describing the issue.
     :type description: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

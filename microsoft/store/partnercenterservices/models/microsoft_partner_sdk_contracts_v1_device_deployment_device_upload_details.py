@@ -26,7 +26,7 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceUploadDetails(Model):
     :param status: Gets or sets the status of the device information upload.
      Possible values include: 'unknown', 'queued', 'processing', 'finished',
      'finished_with_errors'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param error_code: Gets or sets the HTTP status error code that is
      returned if the device upload fails.
     :type error_code: str
@@ -35,7 +35,7 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceUploadDetails(Model):
     :type error_description: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

@@ -18,17 +18,18 @@ class MicrosoftPartnerSdkContractsV1EnrolledProgram(Model):
      'reseller', 'advisor', 'partner_network', 'partner_network_local',
      'value_added_reseller', 'value_added_reseller_partner_network',
      'partner_incentives'
-    :type program_name: str or ~azure.partnercenterservices.models.enum
+    :type program_name: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param program: The program name.
     :type program: str
     :param status: The program enrollment status. Possible values include:
      'none', 'not_registered', 'initialized', 'pending_qualification',
      'qualified', 'denied', 'active', 'disabled', 'suspended', 'evicted',
      'closed', 'expired', 'offboarding'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

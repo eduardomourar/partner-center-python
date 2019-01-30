@@ -14,22 +14,22 @@ class MicrosoftPartnerSdkContractsV1ContractsLinksManagedServiceLinks(Model):
 
     :param admin_service: Gets or sets the admin service URI.
     :type admin_service:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param service_health: Gets or sets the service health URI.
     :type service_health:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param service_ticket: Gets or sets the service ticket URI.
     :type service_ticket:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param self: The self uri.
     :type self:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param next: The next page of items.
     :type next:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param previous: The previous page of items.
     :type previous:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     """
 
     _attribute_map = {

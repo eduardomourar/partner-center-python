@@ -15,7 +15,7 @@ class SystemCollectionsGenericKeyValuePairMicrosoftPartnerSdkContractsV1DeviceDe
     sending a request.
 
     :ivar key: Possible values include: 'none', 'o_o_b_e'
-    :vartype key: str or ~azure.partnercenterservices.models.enum
+    :vartype key: str or ~microsoft.store.partnercenterservices.models.enum
     :ivar value:
     :vartype value: str
     """

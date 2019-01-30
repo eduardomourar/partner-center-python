@@ -26,7 +26,8 @@ class MicrosoftPartnerSdkContractsV1InternalApplicationsApplication(Model):
     :type id: str
     :param application_type: The application type. Possible values include:
      'none', 'native', 'web'
-    :type application_type: str or ~azure.partnercenterservices.models.enum
+    :type application_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param name: The application name.
     :type name: str
     :param identifier_uris: The identifier Uris.
@@ -35,7 +36,7 @@ class MicrosoftPartnerSdkContractsV1InternalApplicationsApplication(Model):
     :type credentials_uri: str
     :param resources: List of resources.
     :type resources:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1InternalApplicationsApplicationResource]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1InternalApplicationsApplicationResource]
     :param accessible_endpoints: The endpoints to which the apps has access.
     :type accessible_endpoints: list[str]
     :param authorization_uri: The consent Uri to complete the application
@@ -43,7 +44,7 @@ class MicrosoftPartnerSdkContractsV1InternalApplicationsApplication(Model):
     :type authorization_uri: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

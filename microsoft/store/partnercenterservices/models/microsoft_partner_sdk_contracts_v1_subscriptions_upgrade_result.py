@@ -20,18 +20,19 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeResult(Model):
     :type target_subscription_id: str
     :param upgrade_type: The type of upgrade. Possible values include: 'none',
      'upgrade_only', 'upgrade_with_license_transfer'
-    :type upgrade_type: str or ~azure.partnercenterservices.models.enum
+    :type upgrade_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param upgrade_errors: Errors encountered while attempting to perform the
      upgrade, if applicable.
     :type upgrade_errors:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeError]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeError]
     :param license_errors: Errors encountered while attempting to migrate user
      licenses, if applicable.
     :type license_errors:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUserLicenseError]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUserLicenseError]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

@@ -14,11 +14,11 @@ class MicrosoftPartnerSdkInternalContractsAnalyticsCustomerDeploymentUsageInsigh
     :param customer_licenses_deployment_insight: Customer Licenses Deployment
      Insight
     :type customer_licenses_deployment_insight:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesDeploymentInsights
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesDeploymentInsights
     :param customer_licenses_usage_insights: Collection of
      CustomerWorkloadUsageInsights
     :type customer_licenses_usage_insights:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesUsageInsights]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesUsageInsights]
     """
 
     _attribute_map = {

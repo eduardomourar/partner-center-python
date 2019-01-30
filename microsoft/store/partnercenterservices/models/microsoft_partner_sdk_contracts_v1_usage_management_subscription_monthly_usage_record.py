@@ -16,7 +16,7 @@ class MicrosoftPartnerSdkContractsV1UsageManagementSubscriptionMonthlyUsageRecor
 
     :param status: Gets or sets the status of the subscription. Possible
      values include: 'none', 'active', 'suspended', 'deleted'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param partner_on_record: Gets or sets the MPN ID of the partner on
      record.
     :type partner_on_record: str
@@ -43,7 +43,7 @@ class MicrosoftPartnerSdkContractsV1UsageManagementSubscriptionMonthlyUsageRecor
     :type last_modified_date: datetime
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

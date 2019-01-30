@@ -23,15 +23,15 @@ class MicrosoftPartnerSdkContractsV1SubscriptionAddOnReferral(Model):
     :param status: The status of the referral. Possible values include:
      'none', 'sent', 'received', 'rejected', 'expired', 'processing',
      'cannot_process', 'unknown', 'completed', 'failed_to_process'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param created_date: Created date of the referral.
     :type created_date: datetime
     :param action: The intended action for the referral. Possible values
      include: 'none', 'create', 'increase', 'decrease', 'suspend'
-    :type action: str or ~azure.partnercenterservices.models.enum
+    :type action: str or ~microsoft.store.partnercenterservices.models.enum
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

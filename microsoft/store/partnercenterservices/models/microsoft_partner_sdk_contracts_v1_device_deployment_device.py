@@ -33,7 +33,7 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice(Model):
     :type oem_manufacturer_name: str
     :param policies: Gets or sets the list of policies assigned to the device.
     :type policies:
-     list[~azure.partnercenterservices.models.SystemCollectionsGenericKeyValuePairMicrosoftPartnerSdkContractsV1DeviceDeploymentPolicyCategorySystemString]
+     list[~microsoft.store.partnercenterservices.models.SystemCollectionsGenericKeyValuePairMicrosoftPartnerSdkContractsV1DeviceDeploymentPolicyCategorySystemString]
     :param uploaded_by: Gets or sets the ID of the tenant who uploaded the
      device.
     :type uploaded_by: str
@@ -45,10 +45,10 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice(Model):
     :type allowed_operations: list[str]
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

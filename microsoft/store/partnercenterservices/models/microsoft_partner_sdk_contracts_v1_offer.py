@@ -45,7 +45,7 @@ class MicrosoftPartnerSdkContractsV1Offer(Model):
     :type country: str
     :param category: Gets or sets the category.
     :type category:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OfferCategory
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OfferCategory
     :param limit_unit_of_measure: Gets or sets value for Limit unit of measure
      Ex: Concurrent, LifeTime, None
     :type limit_unit_of_measure: str
@@ -69,7 +69,7 @@ class MicrosoftPartnerSdkContractsV1Offer(Model):
     :param billing: Gets or sets the billing type for the line item purchase.
      (Examples : "none", "usage", or "license".). Possible values include:
      'none', 'usage', 'license'
-    :type billing: str or ~azure.partnercenterservices.models.enum
+    :type billing: str or ~microsoft.store.partnercenterservices.models.enum
     :param supported_billing_cycles: Gets or sets the billing cycles supported
      for this offer.
     :type supported_billing_cycles: list[str]
@@ -115,22 +115,23 @@ class MicrosoftPartnerSdkContractsV1Offer(Model):
      an order.
      If the acquisition type is referral, then acquiring this offer is through
      a referral. Possible values include: 'purchase', 'referral'
-    :type acquisition_type: str or ~azure.partnercenterservices.models.enum
+    :type acquisition_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param supported_catalog_types: Gets or sets the supported catalog types.
     :type supported_catalog_types: list[str]
     :param actions: Gets or sets the actions.
     :type actions: list[str]
     :param product: Gets or sets the product.
     :type product:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OfferProduct
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1OfferProduct
     :param unit_type: Gets or sets the type of the unit.
     :type unit_type: str
     :param links: Gets or sets the offer's "learn more" link.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksOfferLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksOfferLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

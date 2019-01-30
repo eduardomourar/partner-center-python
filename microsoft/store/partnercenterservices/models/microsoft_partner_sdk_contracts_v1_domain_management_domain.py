@@ -13,12 +13,14 @@ class MicrosoftPartnerSdkContractsV1DomainManagementDomain(Model):
 
     :param authentication_type: Domain authentication type. Possible values
      include: 'managed', 'federated'
-    :type authentication_type: str or ~azure.partnercenterservices.models.enum
+    :type authentication_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param capability: Domain Capability. Possible values include: 'none',
      'email', 'sharepoint', 'office_communications_online',
      'sharepoint_default', 'full_redelegation', 'share_point_public',
      'org_id_authentication', 'yammer', 'intune', 'all'
-    :type capability: str or ~azure.partnercenterservices.models.enum
+    :type capability: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param is_default: Is default domain?
     :type is_default: bool
     :param is_initial: Is initial domain?
@@ -29,10 +31,11 @@ class MicrosoftPartnerSdkContractsV1DomainManagementDomain(Model):
     :type root_domain: str
     :param status: Domain Status. Possible values include: 'unverified',
      'verified', 'pending_deletion'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param verification_method: Domain Verification Method. Possible values
      include: 'none', 'dns_record', 'email'
-    :type verification_method: str or ~azure.partnercenterservices.models.enum
+    :type verification_method: str or
+     ~microsoft.store.partnercenterservices.models.enum
     """
 
     _attribute_map = {

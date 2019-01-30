@@ -17,7 +17,7 @@ class MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus(Model):
     :type partner_id: str
     :param customers_data: Gets or sets the migration data of customers
     :type customers_data:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationCustomerSyndicationMigration]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1MigrationCustomerSyndicationMigration]
     """
 
     _attribute_map = {

@@ -21,13 +21,14 @@ class MicrosoftPartnerSdkContractsV1MpnProfile(Model):
     :ivar profile_type: Gets the partner profile type. Possible values
      include: 'mpn_profile', 'billing_profile', 'support_profile',
      'legal_business_profile', 'organization_profile'
-    :vartype profile_type: str or ~azure.partnercenterservices.models.enum
+    :vartype profile_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

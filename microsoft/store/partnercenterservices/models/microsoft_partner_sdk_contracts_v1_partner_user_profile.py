@@ -16,10 +16,11 @@ class MicrosoftPartnerSdkContractsV1PartnerUserProfile(Model):
 
     :ivar profile_type: Gets the profile type. Possible values include:
      'none', 'certification', 'assessment'
-    :vartype profile_type: str or ~azure.partnercenterservices.models.enum
+    :vartype profile_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

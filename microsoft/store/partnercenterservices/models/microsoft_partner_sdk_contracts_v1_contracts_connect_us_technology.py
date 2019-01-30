@@ -17,7 +17,7 @@ class MicrosoftPartnerSdkContractsV1ContractsConnectUsTechnology(Model):
     :type code: int
     :param scenarios: Gets or sets the scenarios.
     :type scenarios:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsScenario]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsScenario]
     """
 
     _attribute_map = {

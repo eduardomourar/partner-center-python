@@ -15,7 +15,7 @@ class MicrosoftPartnerSdkContractsV1UserCredentials(Model):
     :type user_name: str
     :param password: Gets or sets the user's securely stored password.
     :type password:
-     ~azure.partnercenterservices.models.SystemSecuritySecureString
+     ~microsoft.store.partnercenterservices.models.SystemSecuritySecureString
     """
 
     _attribute_map = {

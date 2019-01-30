@@ -26,13 +26,13 @@ class MicrosoftPartnerSdkInternalContractsAnalyticsCustomerLicenseInsights(Model
     :param licensed_service_products: Service insights of a customer scoped
      under a given partner.
     :type licensed_service_products:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsLicenseServiceProduct]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsLicenseServiceProduct]
     :param total_subscription_all_licensed_services: Total subscription for
      license based services.
     :type total_subscription_all_licensed_services: long
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

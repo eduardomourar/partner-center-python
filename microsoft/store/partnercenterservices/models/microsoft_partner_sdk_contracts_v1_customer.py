@@ -22,23 +22,23 @@ class MicrosoftPartnerSdkContractsV1Customer(Model):
     :param company_profile: Gets or sets the company profile. Additional
      information about the company or organization.
     :type company_profile:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerCompanyProfile
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerCompanyProfile
     :param billing_profile: Gets or sets the billing profile. Additional
      information used for billing.
     :type billing_profile:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
     :param relationship_to_partner: Gets or sets the relationship to a
      partner, by defining the licensing program that the partner uses for this
      customer. Possible values include: 'unknown', 'reseller', 'advisor',
      'syndication', 'microsoft_support', 'none'
     :type relationship_to_partner: str or
-     ~azure.partnercenterservices.models.enum
+     ~microsoft.store.partnercenterservices.models.enum
     :param allow_delegated_access: Gets or sets a value that indicates whether
      the partner has been granted delegated admin privileges by this customer.
     :type allow_delegated_access: bool
     :param user_credentials: Gets or sets the user credentials.
     :type user_credentials:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserCredentials
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserCredentials
     :param associated_partner_id: Gets or sets the indirect reseller
      associated to this customer account.
      This value can be set only by indirect CSP partners.
@@ -47,10 +47,10 @@ class MicrosoftPartnerSdkContractsV1Customer(Model):
     :type custom_domains: list[str]
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

@@ -22,10 +22,10 @@ class MicrosoftPartnerSdkContractsV1InternalApplicationsApplicationCredential(Mo
     :type end_date: datetime
     :param password: The password.
     :type password:
-     ~azure.partnercenterservices.models.SystemSecuritySecureString
+     ~microsoft.store.partnercenterservices.models.SystemSecuritySecureString
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

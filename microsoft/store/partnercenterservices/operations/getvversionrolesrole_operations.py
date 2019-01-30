@@ -66,7 +66,7 @@ class GetvversionrolesroleOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementRole
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementRole
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementRole
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -160,7 +160,7 @@ class GetvversionrolesroleOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementRole
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementRole
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementRole
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

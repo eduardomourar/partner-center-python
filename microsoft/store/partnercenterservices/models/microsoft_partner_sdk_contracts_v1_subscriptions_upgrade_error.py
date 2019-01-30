@@ -23,14 +23,14 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeError(Model):
      'subscription_does_not_have_any_upgrade_paths',
      'subscription_target_offer_not_found', 'subscription_not_provisioned',
      'offer_does_not_support_billing_cycle'
-    :type code: str or ~azure.partnercenterservices.models.enum
+    :type code: str or ~microsoft.store.partnercenterservices.models.enum
     :param description: Friendly text describing the error.
     :type description: str
     :param additional_details: Additional details regarding the error.
     :type additional_details: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

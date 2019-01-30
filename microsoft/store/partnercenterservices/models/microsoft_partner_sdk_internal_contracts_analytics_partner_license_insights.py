@@ -23,7 +23,7 @@ class MicrosoftPartnerSdkInternalContractsAnalyticsPartnerLicenseInsights(Model)
     :param service_insights_type: Service insights type. Possible values
      include: 'none', 'license', 'meter'
     :type service_insights_type: str or
-     ~azure.partnercenterservices.models.enum
+     ~microsoft.store.partnercenterservices.models.enum
     :param total_customers: Total customers as of processed time stamp.
     :type total_customers: long
     :param total_subscriptions: Total subscription count as of processed time
@@ -40,18 +40,18 @@ class MicrosoftPartnerSdkInternalContractsAnalyticsPartnerLicenseInsights(Model)
     :param rolling_metrics: Rolling metrics of this partner as of processed
      time stamp.
     :type rolling_metrics:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsPartnerLicenseRollingServiceInsights
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsPartnerLicenseRollingServiceInsights
     :param workloads: Workload insights of a customer scoped under a given
      partner, service
      and product.
     :type workloads:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsLicenseWorkload]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkInternalContractsAnalyticsLicenseWorkload]
     :param deployment_percent: Percentage of licenses deployed by customers of
      this partner
     :type deployment_percent: float
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

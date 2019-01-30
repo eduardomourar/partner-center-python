@@ -21,10 +21,10 @@ class MicrosoftPartnerSdkContractsV1UsageManagementCustomerUsageSummary(Model):
     :param customer_spending_budget: To do: to be deprecated with next
      release. The spending budget allocated for a specific customer.
     :type customer_spending_budget:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
     :param budget: The spending budget allocated for the customer.
     :type budget:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
     :param resource_id: Gets or sets the resource unique identifier.
      A GUID formatted string that is the ID of the subscription or resource.
      In the context of CustomerMonthlyUsageRecord, this ID is the customer ID.
@@ -55,10 +55,10 @@ class MicrosoftPartnerSdkContractsV1UsageManagementCustomerUsageSummary(Model):
     :type last_modified_date: datetime
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

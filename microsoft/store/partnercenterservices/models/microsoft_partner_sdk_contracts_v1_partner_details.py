@@ -17,13 +17,14 @@ class MicrosoftPartnerSdkContractsV1PartnerDetails(Model):
     :param aad_partner_type: Partner type flag in AAD. Possible values
      include: 'none', 'reseller', 'advisor', 'company', 'syndication',
      'microsoft_support', 'value_added_reseller'
-    :type aad_partner_type: str or ~azure.partnercenterservices.models.enum
+    :type aad_partner_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param has_dap_privileges: Boolean to indicate if the partner has DAP
      privileges
     :type has_dap_privileges: bool
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

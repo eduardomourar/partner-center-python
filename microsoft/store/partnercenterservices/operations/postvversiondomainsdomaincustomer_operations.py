@@ -37,7 +37,7 @@ class PostvversiondomainsdomaincustomerOperations(object):
 
         :param verified_domain: Domain.
         :type verified_domain:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementVerifiedDomain
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementVerifiedDomain
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param domain:
@@ -61,7 +61,7 @@ class PostvversiondomainsdomaincustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1DomainManagementDomain or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomain
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomain
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

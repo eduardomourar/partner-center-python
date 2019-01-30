@@ -27,7 +27,7 @@ class MicrosoftPartnerSdkContractsV1SubscriptionProvisioningStatus(Model):
     :type end_date: datetime
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

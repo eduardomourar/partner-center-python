@@ -26,7 +26,7 @@ class MicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureUtilizationRecord(
     :type usage_end_time: datetime
     :param resource: Gets or sets the Azure resource.
     :type resource:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureResource
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureResource
     :param quantity: Gets or sets the quantity consumed of the Azure resource.
     :type quantity: float
     :param unit: Gets or sets the type of quantity. (Example : hours, bytes)
@@ -37,10 +37,10 @@ class MicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureUtilizationRecord(
     :param instance_data: Gets or sets an AzureInstanceData object that
      contains key-value pairs of instance level details.
     :type instance_data:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureInstanceData
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureInstanceData
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

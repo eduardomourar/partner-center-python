@@ -15,17 +15,18 @@ class MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail(Model):
     :type id: str
     :param message_type: Gets or sets the message type. Possible values
      include: 'none', 'incident', 'message_center', 'all'
-    :type message_type: str or ~azure.partnercenterservices.models.enum
+    :type message_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param start_time: Gets or sets the Incident start time
     :type start_time: datetime
     :param end_time: Gets or sets the Incident End time
     :type end_time: datetime
     :param status: Gets or sets the status. Possible values include: 'normal',
      'information', 'warning', 'critical'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param messages: Gets or sets the Service Health messages
     :type messages:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentHistory]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentHistory]
     :param workload: Gets or sets the workload name
     :type workload: str
     :param affected_workload_names: Gets or sets the affected workload names
@@ -39,7 +40,7 @@ class MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail(Model):
     :param service_health_links: Gets or sets the link to redirect the user
      for action - set only for message center type messages.
     :type service_health_links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksServiceHealthLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksServiceHealthLinks
     :param required_by: Gets or sets the date by which partner is expected to
      complete an action - set only for message center type messages.
     :type required_by: datetime
@@ -52,7 +53,7 @@ class MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail(Model):
     :param severity: Gets or sets the severity of the message - set only for
      message center type messages. Possible values include: 'normal',
      'information', 'warning', 'critical'
-    :type severity: str or ~azure.partnercenterservices.models.enum
+    :type severity: str or ~microsoft.store.partnercenterservices.models.enum
     """
 
     _attribute_map = {

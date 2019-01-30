@@ -13,13 +13,14 @@ class MicrosoftPartnerSdkContractsV1NotificationPreferenceNotificationPreference
 
     :param notification_area: Gets or sets the NotificationArea. Possible
      values include: 'none', 'rated_usage', 'service_health'
-    :type notification_area: str or ~azure.partnercenterservices.models.enum
+    :type notification_area: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param locale: Gets or sets the Locale
     :type locale: str
     :param communication_preferences: Gets or sets the communication
      preferences for a profile
     :type communication_preferences:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceCommunicationPreference]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceCommunicationPreference]
     """
 
     _attribute_map = {

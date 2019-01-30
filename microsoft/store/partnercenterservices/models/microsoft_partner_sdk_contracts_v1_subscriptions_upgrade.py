@@ -16,10 +16,11 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsUpgrade(Model):
 
     :param target_offer: Gets or sets the offer of the target subscription.
     :type target_offer:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Offer
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Offer
     :param upgrade_type: Gets or sets the type of upgrade. Possible values
      include: 'none', 'upgrade_only', 'upgrade_with_license_transfer'
-    :type upgrade_type: str or ~azure.partnercenterservices.models.enum
+    :type upgrade_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param is_eligible: Gets or sets a value that indicates whether the
      upgrade can be performed.
     :type is_eligible: bool
@@ -29,10 +30,10 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsUpgrade(Model):
     :param upgrade_errors: The reasons the upgrade cannot be performed, if
      applicable.
     :type upgrade_errors:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeError]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeError]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

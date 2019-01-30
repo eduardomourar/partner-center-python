@@ -18,34 +18,37 @@ class MicrosoftPartnerSdkContractsV1LegalBusinessProfile(Model):
     :type company_name: str
     :param address: Gets or sets the address of the company or organization.
     :type address:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
     :param primary_contact: Gets or sets the primary contact for the company
      or organization.
     :type primary_contact:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Contact
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Contact
     :param company_approver_address: Gets or sets the company approver
      address.
     :type company_approver_address:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Address
     :param company_approver_email: Gets or sets the company approver email.
     :type company_approver_email: str
     :param vetting_status: Gets or sets the vetting status. Possible values
      include: 'none', 'pending', 'authorized', 'rejected'
-    :type vetting_status: str or ~azure.partnercenterservices.models.enum
+    :type vetting_status: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param vetting_sub_status: Gets or sets the vetting sub status. Possible
      values include: 'none', 'entry', 'email_ownership', 'email_domain',
      'employment_verification', 'decision', 'other', 'business_verification'
-    :type vetting_sub_status: str or ~azure.partnercenterservices.models.enum
+    :type vetting_sub_status: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :ivar profile_type: Gets the partner profile type. Possible values
      include: 'mpn_profile', 'billing_profile', 'support_profile',
      'legal_business_profile', 'organization_profile'
-    :vartype profile_type: str or ~azure.partnercenterservices.models.enum
+    :vartype profile_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

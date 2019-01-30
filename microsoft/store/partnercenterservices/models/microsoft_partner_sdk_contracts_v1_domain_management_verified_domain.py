@@ -15,10 +15,10 @@ class MicrosoftPartnerSdkContractsV1DomainManagementVerifiedDomain(Model):
     :type verified_domain_name: str
     :param domain: Domain
     :type domain:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomain
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomain
     :param domain_federation_settings: Domain federation settings
     :type domain_federation_settings:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomainFederationSettings
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomainFederationSettings
     """
 
     _attribute_map = {

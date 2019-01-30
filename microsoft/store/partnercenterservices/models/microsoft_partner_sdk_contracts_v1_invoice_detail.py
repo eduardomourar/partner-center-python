@@ -19,16 +19,17 @@ class MicrosoftPartnerSdkContractsV1InvoiceDetail(Model):
     :param invoice_line_item_type: Gets or sets the type of invoice detail.
      Possible values include: 'none', 'usage_line_items', 'billing_line_items'
     :type invoice_line_item_type: str or
-     ~azure.partnercenterservices.models.enum
+     ~microsoft.store.partnercenterservices.models.enum
     :param billing_provider: Gets or sets the billing provider. Possible
      values include: 'none', 'office', 'azure', 'azure_data_market'
-    :type billing_provider: str or ~azure.partnercenterservices.models.enum
+    :type billing_provider: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

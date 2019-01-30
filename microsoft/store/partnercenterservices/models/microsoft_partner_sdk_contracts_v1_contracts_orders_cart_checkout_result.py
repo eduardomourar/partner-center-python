@@ -16,14 +16,14 @@ class MicrosoftPartnerSdkContractsV1ContractsOrdersCartCheckoutResult(Model):
 
     :param orders: Gets or sets the orders created.
     :type orders:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order]
     :param order_errors: Gets or sets a collection of order failure
      information.
     :type order_errors:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsOrdersOrderError]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsOrdersOrderError]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

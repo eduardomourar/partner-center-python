@@ -15,13 +15,13 @@ class MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidents(Model):
     :type workload: str
     :param incidents: Gets or sets the Incident list
     :type incidents:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail]
     :param status: Gets or sets the cumulative status of the service. Possible
      values include: 'normal', 'information', 'warning', 'critical'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param message_center_messages: Gets or sets the message center messages
     :type message_center_messages:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail]
     """
 
     _attribute_map = {

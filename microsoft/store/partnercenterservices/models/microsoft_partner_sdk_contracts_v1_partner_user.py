@@ -33,7 +33,7 @@ class MicrosoftPartnerSdkContractsV1PartnerUser(Model):
     :type immutable_id: str
     :param password_profile: Gets or sets the user's password profile.
     :type password_profile:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsPasswordProfile
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsPasswordProfile
     :param phone_number: Gets or sets the user's phone number.
     :type phone_number: str
     :param last_directory_sync_time: Gets or sets the last directory sync time
@@ -46,11 +46,12 @@ class MicrosoftPartnerSdkContractsV1PartnerUser(Model):
     :type last_directory_sync_time: datetime
     :param user_domain_type: Gets or sets user domain type. Possible values
      include: 'none', 'managed', 'federated'
-    :type user_domain_type: str or ~azure.partnercenterservices.models.enum
+    :type user_domain_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param state: Gets or sets the state of the user, for the deleted user
      this is "Inactive" and for the normal user it is "Active". Possible values
      include: 'active', 'inactive'
-    :type state: str or ~azure.partnercenterservices.models.enum
+    :type state: str or ~microsoft.store.partnercenterservices.models.enum
     :param soft_deletion_time: Gets or sets the deleted time for the inactive
      user.
      Represents the start of the thirty day period after which data associated
@@ -58,10 +59,10 @@ class MicrosoftPartnerSdkContractsV1PartnerUser(Model):
     :type soft_deletion_time: datetime
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

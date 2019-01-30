@@ -15,16 +15,16 @@ class MicrosoftPartnerSdkContractsV1LinksOrderLinks(Model):
     :param provisioning_status: Gets or sets the link to the provisioning
      status.
     :type provisioning_status:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param self: The self uri.
     :type self:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param next: The next page of items.
     :type next:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param previous: The previous page of items.
     :type previous:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     """
 
     _attribute_map = {

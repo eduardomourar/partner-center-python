@@ -14,10 +14,10 @@ class MicrosoftPartnerSdkContractsV1InternalApplicationsApplicationResource(Mode
     :param registration_resource: The registration resource. Possible values
      include: 'none', 'v1', 'v2'
     :type registration_resource: str or
-     ~azure.partnercenterservices.models.enum
+     ~microsoft.store.partnercenterservices.models.enum
     :param status: Registration status of the application. Possible values
      include: 'none', 'active', 'disabled'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     """
 
     _attribute_map = {

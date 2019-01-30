@@ -42,7 +42,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :type customer_id: str
         :param customer: The Customer data.
         :type customer:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -62,7 +62,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Customer or ClientRawResponse
          if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -149,7 +149,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -215,7 +215,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :type service_request_id: str
         :param service_request: Service request with details to update
         :type service_request:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -235,7 +235,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1ServiceRequest or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -298,7 +298,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :type customer_id: str
         :param user: User attribute class.
         :type user:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param user_id:
@@ -376,7 +376,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :type user_id: str
         :param user: User attribute class.
         :type user:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -462,7 +462,7 @@ class PatchvversioncustomerscustomerOperations(object):
          specifies a device.
          The following properties are required:  Id, Policies.
         :type devices:
-         list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
+         list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
@@ -543,7 +543,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :type order_id: str
         :param order: The order object with order-line items information.
         :type order:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -563,7 +563,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Order or ClientRawResponse if
          raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -629,7 +629,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :type subscription_id: str
         :param subscription: The subscription data.
         :type subscription:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Subscription
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Subscription
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -649,7 +649,7 @@ class PatchvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Subscription or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Subscription
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Subscription
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

@@ -62,7 +62,7 @@ class GetvversionusersuserOperations(object):
          MicrosoftPartnerSdkContractsV1NotificationPreferenceNotificationPreference
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceNotificationPreference
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1NotificationPreferenceNotificationPreference
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

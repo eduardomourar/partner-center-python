@@ -40,7 +40,7 @@ class PutvversioncustomerscustomerOperations(object):
         :param customer_billing_profile: The new customer billing profile
          information.
         :type customer_billing_profile:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -60,7 +60,7 @@ class PutvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1CustomerBillingProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -126,7 +126,7 @@ class PutvversioncustomerscustomerOperations(object):
         :type device_id: str
         :param device: The device to be updated with the policy
         :type device:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -146,7 +146,7 @@ class PutvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -212,7 +212,7 @@ class PutvversioncustomerscustomerOperations(object):
         :type policy_id: str
         :param policy: Policy to be updated
         :type policy:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -233,7 +233,7 @@ class PutvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -298,7 +298,7 @@ class PutvversioncustomerscustomerOperations(object):
         :type subscription_id: str
         :param support_contact: The support contact object.
         :type support_contact:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -318,7 +318,7 @@ class PutvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

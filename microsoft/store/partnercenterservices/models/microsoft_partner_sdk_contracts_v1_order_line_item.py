@@ -50,7 +50,7 @@ class MicrosoftPartnerSdkContractsV1OrderLineItem(Model):
      Example: Contract: { contract_type:Subscription, contract_id:
      06bfd4f8-742d-41c6-9042-bb95ae5b4a05 }
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LinksOrderLineItemLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LinksOrderLineItemLinks
     """
 
     _attribute_map = {

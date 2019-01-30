@@ -19,13 +19,14 @@ class MicrosoftPartnerSdkContractsV1InvoiceLineItem(Model):
     :ivar invoice_line_item_type: Returns the type of invoice line item.
      Possible values include: 'none', 'usage_line_items', 'billing_line_items'
     :vartype invoice_line_item_type: str or
-     ~azure.partnercenterservices.models.enum
+     ~microsoft.store.partnercenterservices.models.enum
     :ivar billing_provider: Returns the billing provider. Possible values
      include: 'none', 'office', 'azure', 'azure_data_market'
-    :vartype billing_provider: str or ~azure.partnercenterservices.models.enum
+    :vartype billing_provider: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

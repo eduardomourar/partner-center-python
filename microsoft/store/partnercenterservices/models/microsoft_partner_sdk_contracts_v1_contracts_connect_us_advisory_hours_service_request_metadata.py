@@ -13,13 +13,13 @@ class MicrosoftPartnerSdkContractsV1ContractsConnectUsAdvisoryHoursServiceReques
 
     :param countries: Gets or sets the countries.
     :type countries:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsCountry]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsCountry]
     :param languages: Gets or sets the languages.
     :type languages:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsLanguage]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsLanguage]
     :param technologies: Gets or sets the technologies.
     :type technologies:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsTechnology]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsTechnology]
     """
 
     _attribute_map = {

@@ -15,13 +15,13 @@ class MicrosoftPartnerSdkContractsV1LinksOrderLineItemLinks(Model):
     :param subscription: Gets or sets the link to the full subscription
      information.
     :type subscription:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param sku: Gets or sets the SKU URI.
     :type sku:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     :param provisioning_status: Gets or sets the Provisioning Status URI.
     :type provisioning_status:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonLink
     """
 
     _attribute_map = {

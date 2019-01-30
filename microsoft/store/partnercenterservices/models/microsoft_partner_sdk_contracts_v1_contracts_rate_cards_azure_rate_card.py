@@ -25,13 +25,13 @@ class MicrosoftPartnerSdkContractsV1ContractsRateCardsAzureRateCard(Model):
     :type is_tax_included: bool
     :param meters: Gets or sets a collection of AzureMeter meters.
     :type meters:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRateCardsAzureMeter]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRateCardsAzureMeter]
     :param offer_terms: Gets or sets a collection of AzureOfferTerm terms.
     :type offer_terms:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRateCardsAzureOfferTerm]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRateCardsAzureOfferTerm]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

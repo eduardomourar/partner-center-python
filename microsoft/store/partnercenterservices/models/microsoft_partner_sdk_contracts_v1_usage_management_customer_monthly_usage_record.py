@@ -17,11 +17,11 @@ class MicrosoftPartnerSdkContractsV1UsageManagementCustomerMonthlyUsageRecord(Mo
 
     :param budget: The spending budget allocated for the customer.
     :type budget:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
     :param customer_spending_budget: To do: to be deprecated with next
      release. The spending budget allocated for a specific customer.
     :type customer_spending_budget:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
     :param percent_used: The percentage used out of the allocated budget.
     :type percent_used: float
     :param resource_id: Gets or sets the resource unique identifier. A GUID
@@ -44,7 +44,7 @@ class MicrosoftPartnerSdkContractsV1UsageManagementCustomerMonthlyUsageRecord(Mo
     :type last_modified_date: datetime
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

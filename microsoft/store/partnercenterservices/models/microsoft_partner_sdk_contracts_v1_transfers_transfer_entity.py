@@ -26,20 +26,21 @@ class MicrosoftPartnerSdkContractsV1TransfersTransferEntity(Model):
     :type customer_id: str
     :param transfer_type: The transfer entity type. Possible values include:
      'none', 'subscription', 'customer', 'asset'
-    :type transfer_type: str or ~azure.partnercenterservices.models.enum
+    :type transfer_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param billing_details: Gets or sets the billing details for the
      subscription.
     :type billing_details:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1TransfersLastKnownBillingDetails
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1TransfersLastKnownBillingDetails
     :param transfer_entity_links: Gets or sets the transfer entity linkes.
     :type transfer_entity_links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LinksTransferEntityLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1LinksTransferEntityLinks
     :param properties: Gets or sets the properties. In the future, any
      properties that are used internally should be put in this property bag.
     :type properties: dict[str, str]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

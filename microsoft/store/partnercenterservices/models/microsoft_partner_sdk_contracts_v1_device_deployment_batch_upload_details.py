@@ -18,7 +18,7 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentBatchUploadDetails(Model):
     :param status: Gets or sets the status of the batch upload. Possible
      values include: 'unknown', 'queued', 'processing', 'finished',
      'finished_with_errors'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param started_time: Gets or sets the date and time that the batch upload
      process started.
     :type started_time: datetime
@@ -28,7 +28,7 @@ class MicrosoftPartnerSdkContractsV1DeviceDeploymentBatchUploadDetails(Model):
     :param devices_status: Gets or sets the device status, an array of objects
      that specify the status of each device information upload.
     :type devices_status:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceUploadDetails]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceUploadDetails]
     """
 
     _attribute_map = {

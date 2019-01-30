@@ -31,16 +31,16 @@ class MicrosoftPartnerSdkContractsV1UserLicenseManagementSubscribedSku(Model):
     :type warning_units: int
     :param product_sku: Gets or sets the product SKU.
     :type product_sku:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementProductSku
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementProductSku
     :param service_plans: Gets or sets the collection of service plans of a
      product.
     :type service_plans:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementServicePlan]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementServicePlan]
     :param capability_status: Gets or sets the SKU status of a product.
     :type capability_status: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

@@ -27,10 +27,10 @@ class MicrosoftPartnerSdkContractsV1ManagedService(Model):
     :type group_name: str
     :param links: Gets or sets the links corresponding to the managed service.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksManagedServiceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsLinksManagedServiceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

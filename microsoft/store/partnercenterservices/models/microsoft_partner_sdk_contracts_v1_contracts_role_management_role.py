@@ -21,13 +21,13 @@ class MicrosoftPartnerSdkContractsV1ContractsRoleManagementRole(Model):
     :param category: Gets or sets the category of the role. Possible values
      include: 'tenant', 'partner_agent', 'incentive', 'mpn', 'marketing',
      'referrals', 'account_admin'
-    :type category: str or ~azure.partnercenterservices.models.enum
+    :type category: str or ~microsoft.store.partnercenterservices.models.enum
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

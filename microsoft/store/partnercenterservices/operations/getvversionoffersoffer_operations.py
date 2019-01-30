@@ -61,7 +61,7 @@ class GetvversionoffersofferOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -142,7 +142,7 @@ class GetvversionoffersofferOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Offer or ClientRawResponse if
          raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Offer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Offer
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

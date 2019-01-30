@@ -60,7 +60,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -137,7 +137,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Customer or ClientRawResponse
          if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Customer
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -220,7 +220,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -309,7 +309,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -390,7 +390,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesUsageInsights or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesUsageInsights
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesUsageInsights
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -466,7 +466,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesDeploymentInsights
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesDeploymentInsights
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesDeploymentInsights
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -542,7 +542,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1OfferCategory
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1OfferCategory
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1OfferCategory
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -624,7 +624,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -709,7 +709,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -785,7 +785,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1CustomerBillingProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerBillingProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -860,7 +860,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1CustomerCompanyProfile or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerCompanyProfile
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerCompanyProfile
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -936,7 +936,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1UsageManagementCustomerUsageSummary or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementCustomerUsageSummary
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementCustomerUsageSummary
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1012,7 +1012,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ManagedService
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ManagedService
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ManagedService
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1087,7 +1087,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1164,7 +1164,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1PartnerRelationship
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1PartnerRelationship
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1PartnerRelationship
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1241,7 +1241,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1ServiceRequest or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequest
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1324,7 +1324,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceRequest
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceRequest
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceRequest
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1409,7 +1409,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UserLicenseManagementSubscribedSku
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UserLicenseManagementSubscribedSku
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UserLicenseManagementSubscribedSku
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1491,7 +1491,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1UserLicenseManagementLicense or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicense
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicense
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1588,7 +1588,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1CustomerUser
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1CustomerUser
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1CustomerUser
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1675,7 +1675,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1CustomerUser or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1754,7 +1754,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Membership
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Membership
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Membership
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1830,7 +1830,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceBatch or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceBatch
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceBatch
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1908,7 +1908,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1DeviceDeploymentBatchUploadDetails or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentBatchUploadDetails
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentBatchUploadDetails
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1985,7 +1985,7 @@ class GetvversioncustomerscustomerOperations(object):
          overrides<msrest:optionsforoperations>`.
         :return: list or ClientRawResponse if raw=true
         :rtype:
-         list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
+         list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2060,7 +2060,7 @@ class GetvversioncustomerscustomerOperations(object):
          overrides<msrest:optionsforoperations>`.
         :return: list or ClientRawResponse if raw=true
         :rtype:
-         list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy]
+         list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy]
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2138,7 +2138,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2222,7 +2222,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Order
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Order
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Order
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2304,7 +2304,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Order or ClientRawResponse if
          raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2384,7 +2384,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2464,7 +2464,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1SubscriptionProvisioningStatus
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionProvisioningStatus
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionProvisioningStatus
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2543,7 +2543,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1SubscriptionRegistrationStatus
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionRegistrationStatus
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionRegistrationStatus
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2625,7 +2625,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2707,7 +2707,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Subscription or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Subscription
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Subscription
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2786,7 +2786,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsConversion
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsConversion
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsConversion
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2864,7 +2864,7 @@ class GetvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -2943,7 +2943,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsUpgrade
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsUpgrade
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsUpgrade
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -3022,7 +3022,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1UsageManagementSubscriptionUsageSummary
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSubscriptionUsageSummary
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UsageManagementSubscriptionUsageSummary
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -3101,7 +3101,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementAzureResourceMonthlyUsageRecord
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementAzureResourceMonthlyUsageRecord
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementAzureResourceMonthlyUsageRecord
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -3180,7 +3180,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionDailyUsageRecord
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionDailyUsageRecord
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionDailyUsageRecord
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -3258,7 +3258,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionMonthlyUsageRecord
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionMonthlyUsageRecord
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionMonthlyUsageRecord
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -3355,7 +3355,7 @@ class GetvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureUtilizationRecord
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureUtilizationRecord
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureUtilizationRecord
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

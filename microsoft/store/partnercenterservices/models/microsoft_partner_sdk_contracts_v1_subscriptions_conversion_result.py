@@ -23,10 +23,10 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsConversionResult(Model):
     :param error: The error encountered while attempting the conversion, if
      applicable.
     :type error:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsConversionError
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsConversionError
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

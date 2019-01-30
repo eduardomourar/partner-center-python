@@ -59,7 +59,7 @@ class PostvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1ContractsOrdersCartCheckoutResult or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsOrdersCartCheckoutResult
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsOrdersCartCheckoutResult
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -118,7 +118,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type customer_id: str
         :param user_member: The new user member to add.
         :type user_member:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param role_id:
@@ -205,7 +205,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type role_id: str
         :param user_member: The new user member to add.
         :type user_member:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -305,7 +305,7 @@ class PostvversioncustomerscustomerOperations(object):
         :param licenses_to_assign: Gets or sets the list of licenses to be
          assigned.
         :type licenses_to_assign:
-         list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicenseAssignment]
+         list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicenseAssignment]
         :param licenses_to_remove: Gets or sets the list of product SKU
          identifiers of the licenses to remove.
         :type licenses_to_remove: list[str]
@@ -381,7 +381,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type customer_id: str
         :param user: The new customer user.
         :type user:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CustomerUser
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -483,7 +483,7 @@ class PostvversioncustomerscustomerOperations(object):
          hardwareHash only, productKey only, serialNumber + oemManufacturerName
          + modelName.
         :type devices:
-         list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
+         list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
@@ -557,7 +557,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type device_batch_id: str
         :param devices: The list of devices to be uploaded.
         :type devices:
-         list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
+         list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -639,7 +639,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type customer_id: str
         :param policy: ConfigurationPolicy to be created.
         :type policy:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -660,7 +660,7 @@ class PostvversioncustomerscustomerOperations(object):
          MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -722,7 +722,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type customer_id: str
         :param verified_domain: Domain.
         :type verified_domain:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementVerifiedDomain
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementVerifiedDomain
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -742,7 +742,7 @@ class PostvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1DomainManagementDomain or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomain
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1DomainManagementDomain
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -810,7 +810,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type customer_id: str
         :param order: The order object with order-line items information.
         :type order:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -830,7 +830,7 @@ class PostvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1Order or ClientRawResponse if
          raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Order
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -971,7 +971,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type subscription_id: str
         :param target_conversion: The target subscription conversion.
         :type target_conversion:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsConversion
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsConversion
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -991,7 +991,7 @@ class PostvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1SubscriptionsConversionResult
          or ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsConversionResult
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsConversionResult
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """
@@ -1056,7 +1056,7 @@ class PostvversioncustomerscustomerOperations(object):
         :type subscription_id: str
         :param target_upgrade: The target subscription upgrade
         :type target_upgrade:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgrade
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgrade
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in
@@ -1076,7 +1076,7 @@ class PostvversioncustomerscustomerOperations(object):
         :return: MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeResult or
          ClientRawResponse if raw=true
         :rtype:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeResult
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1SubscriptionsUpgradeResult
          or ~msrest.pipeline.ClientRawResponse
         :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`
         """

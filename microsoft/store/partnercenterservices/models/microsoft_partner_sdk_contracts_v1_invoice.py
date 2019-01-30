@@ -38,16 +38,16 @@ class MicrosoftPartnerSdkContractsV1Invoice(Model):
     :type pdf_download_link: str
     :param invoice_details: Gets or sets the invoice details.
     :type invoice_details:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1InvoiceDetail]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1InvoiceDetail]
     :param amendments: Gets or sets the amendments to this invoice.
     :type amendments:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Invoice]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Invoice]
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

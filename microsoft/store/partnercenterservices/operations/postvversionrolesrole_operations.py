@@ -39,7 +39,7 @@ class PostvversionrolesroleOperations(object):
 
         :param user_member: The new user member to add.
         :type user_member:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param role_id:
@@ -125,7 +125,7 @@ class PostvversionrolesroleOperations(object):
         :type role_id: str
         :param user_member: The new user member to add.
         :type user_member:
-         ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
+         ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsRoleManagementUserMember
         :param version: Possible values include: '1.0', '1'
         :type version: str
         :param ms_correlation_id: A unique identifier for the call, useful in

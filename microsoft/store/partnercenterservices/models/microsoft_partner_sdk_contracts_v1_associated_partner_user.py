@@ -18,14 +18,15 @@ class MicrosoftPartnerSdkContractsV1AssociatedPartnerUser(Model):
     :type id: str
     :param profile_type: Gets or sets partner user profile type. Possible
      values include: 'none', 'certification', 'assessment'
-    :type profile_type: str or ~azure.partnercenterservices.models.enum
+    :type profile_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param display_name: Gets or sets the display name.
     :type display_name: str
     :param user_principal_name: Gets or sets the name of the user principal.
     :type user_principal_name: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

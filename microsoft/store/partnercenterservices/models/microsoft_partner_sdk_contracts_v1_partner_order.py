@@ -21,7 +21,7 @@ class MicrosoftPartnerSdkContractsV1PartnerOrder(Model):
     :type currency_symbol: str
     :param status: The status of the order. Possible values include: 'none',
      'purchased', 'refunded'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param subtotal: The amount of the order before taxes are applied.
     :type subtotal: float
     :param tax_amount: The tax amount applied to the order.
@@ -31,7 +31,7 @@ class MicrosoftPartnerSdkContractsV1PartnerOrder(Model):
     :type total_amount: float
     :param line_items: The line items included in the order.
     :type line_items:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1PartnerOrderLineItem]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1PartnerOrderLineItem]
     """
 
     _attribute_map = {

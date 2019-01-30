@@ -19,10 +19,10 @@ class MicrosoftPartnerSdkContractsV1InternalAccountRolesAccountRole(Model):
      'advisor_with_dap', 'value_added_reseller', 'cloud_solution_provider',
      'distributor', 'incentive', 'referrals', 'basic_mpn', 'limited_basic_mpn',
      'publisher', 'control_panel_vendor', 'offboarding_cloud_solution_provider'
-    :type value: str or ~azure.partnercenterservices.models.enum
+    :type value: str or ~microsoft.store.partnercenterservices.models.enum
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

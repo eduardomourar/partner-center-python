@@ -23,10 +23,10 @@ class MicrosoftPartnerSdkContractsV1SubscriptionsUserLicenseError(Model):
     :param errors: A list of exceptions thrown when trying to perform the user
      license transfer.
     :type errors:
-     list[~azure.partnercenterservices.models.MicrosoftMarketplaceServicesCoreServiceFault]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftMarketplaceServicesCoreServiceFault]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

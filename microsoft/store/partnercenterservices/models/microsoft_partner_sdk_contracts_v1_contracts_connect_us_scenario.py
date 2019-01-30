@@ -17,7 +17,7 @@ class MicrosoftPartnerSdkContractsV1ContractsConnectUsScenario(Model):
     :type code: int
     :param consultation_types: Gets or sets the consultation types.
     :type consultation_types:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsConsultationType]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ContractsConnectUsConsultationType]
     """
 
     _attribute_map = {

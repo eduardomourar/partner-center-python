@@ -13,12 +13,12 @@ class MicrosoftPartnerSdkContractsV1NotificationPreferenceCommunicationPreferenc
 
     :param channel: Gets or sets the Channel for communication. Possible
      values include: 'none', 'email', 'web'
-    :type channel: str or ~azure.partnercenterservices.models.enum
+    :type channel: str or ~microsoft.store.partnercenterservices.models.enum
     :param endpoint: Gets or sets the email address used for communication
     :type endpoint: str
     :param status: Gets or sets the status for a Channel. Possible values
      include: 'not_supported', 'on', 'off'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param feature_preferences: Gets or sets the feature preferences for a
      particular notification area.
     :type feature_preferences: str

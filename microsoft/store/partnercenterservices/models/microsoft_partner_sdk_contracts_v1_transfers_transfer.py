@@ -17,25 +17,26 @@ class MicrosoftPartnerSdkContractsV1TransfersTransfer(Model):
 
     :param transfer_type: The transfer entity type. Possible values include:
      'none', 'subscription', 'customer', 'asset'
-    :type transfer_type: str or ~azure.partnercenterservices.models.enum
+    :type transfer_type: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param transfer_entity: The transfer entity.
     :type transfer_entity:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1TransfersTransferEntity
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1TransfersTransferEntity
     :param id: The transfer identifier.
     :type id: str
     :param state: The transfer state. Possible values include: 'none',
      'in_progress', 'active', 'decline', 'expired', 'revoked', 'completed'
-    :type state: str or ~azure.partnercenterservices.models.enum
+    :type state: str or ~microsoft.store.partnercenterservices.models.enum
     :param creation_date: The creation date of the transfer
     :type creation_date: datetime
     :param expiration_date: The expiration date of the transfer
     :type expiration_date: datetime
     :param links: Gets or sets the links.
     :type links:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceLinks
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

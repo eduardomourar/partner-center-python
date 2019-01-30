@@ -15,7 +15,7 @@ class MicrosoftPartnerSdkContractsV1QueryFiltersFieldFilter(Model):
      include: 'equals', 'not_equals', 'greater_than', 'greater_than_or_equals',
      'less_than', 'less_than_or_equals', 'substring', 'and', 'or',
      'starts_with', 'not_starts_with'
-    :type operator: str or ~azure.partnercenterservices.models.enum
+    :type operator: str or ~microsoft.store.partnercenterservices.models.enum
     """
 
     _attribute_map = {

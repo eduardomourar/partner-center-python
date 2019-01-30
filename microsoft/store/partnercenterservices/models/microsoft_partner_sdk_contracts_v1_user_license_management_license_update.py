@@ -17,17 +17,17 @@ class MicrosoftPartnerSdkContractsV1UserLicenseManagementLicenseUpdate(Model):
     :param licenses_to_assign: Gets or sets the list of licenses to be
      assigned.
     :type licenses_to_assign:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicenseAssignment]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicenseAssignment]
     :param licenses_to_remove: Gets or sets the list of product SKU
      identifiers of the licenses to remove.
     :type licenses_to_remove: list[str]
     :ivar license_warnings: Gets a list of warnings that occurred during
      license assignment. This is a read-only property.
     :vartype license_warnings:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicenseWarning]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1UserLicenseManagementLicenseWarning]
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

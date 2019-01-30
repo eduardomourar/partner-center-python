@@ -34,7 +34,8 @@ class MicrosoftPartnerSdkContractsV1UserLicenseManagementProductSku(Model):
      Directory (AAD).
      "group2" - Minecraft product licenses. Possible values include: 'none',
      'group1', 'group2', 'group3'
-    :type license_group_id: str or ~azure.partnercenterservices.models.enum
+    :type license_group_id: str or
+     ~microsoft.store.partnercenterservices.models.enum
     """
 
     _attribute_map = {

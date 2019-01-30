@@ -21,7 +21,7 @@ class MicrosoftPartnerSdkContractsV1ServiceRequest(Model):
     :type description: str
     :param severity: Gets or sets the severity. Possible values include:
      'unknown', 'critical', 'moderate', 'minimal'
-    :type severity: str or ~azure.partnercenterservices.models.enum
+    :type severity: str or ~microsoft.store.partnercenterservices.models.enum
     :param support_topic_id: Gets or sets the ID of the support topic.
     :type support_topic_id: str
     :param support_topic_name: Gets or sets the name of the support topic.
@@ -30,19 +30,19 @@ class MicrosoftPartnerSdkContractsV1ServiceRequest(Model):
     :type id: str
     :param status: Gets or sets the status of the service request. Possible
      values include: 'none', 'open', 'closed', 'attention_needed'
-    :type status: str or ~azure.partnercenterservices.models.enum
+    :type status: str or ~microsoft.store.partnercenterservices.models.enum
     :param organization: Gets or sets the organization for which the service
      request is created.
     :type organization:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestOrganization
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestOrganization
     :param primary_contact: Gets or sets the primary contact on the service
      request.
     :type primary_contact:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestContact
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestContact
     :param last_updated_by: Gets or sets the "Last Updated By" contact for
      changes to the service request.
     :type last_updated_by:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestContact
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestContact
     :param product_name: Gets or sets the name of the product that corresponds
      to the service request.
     :type product_name: str
@@ -60,21 +60,21 @@ class MicrosoftPartnerSdkContractsV1ServiceRequest(Model):
     :param file_links: Gets or sets the collection of File Links that pertain
      to the service request.
     :type file_links:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FileInfo]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1FileInfo]
     :param new_note: Gets or sets a note that can be added to an existing
      service request.
     :type new_note:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestNote
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestNote
     :param notes: Gets or sets a collection of notes added to the service
      request.
     :type notes:
-     list[~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestNote]
+     list[~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1ServiceRequestNote]
     :param country_code: Gets or sets the country corresponding to the service
      request.
     :type country_code: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {

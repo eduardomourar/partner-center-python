@@ -16,20 +16,21 @@ class MicrosoftPartnerSdkContractsV1ResellerProgramProfile(Model):
 
     :param partner_tier: Gets or sets the partner tier. Possible values
      include: 'none', 'first_tier', 'second_tier'
-    :type partner_tier: str or ~azure.partnercenterservices.models.enum
+    :type partner_tier: str or
+     ~microsoft.store.partnercenterservices.models.enum
     :param is_tip_reseller: Gets or sets a value indicating whether or not the
      reseller is a test in production reseller.
     :type is_tip_reseller: bool
     :param qualifications: Gets or sets Qualifications
     :type qualifications:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Qualifications
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1Qualifications
     :param supported_countries: Gets or sets the supported countries.
     :type supported_countries: list[str]
     :param csl_tenant_id: Gets or sets the shared services tenant id.
     :type csl_tenant_id: str
     :ivar attributes: Gets the attributes.
     :vartype attributes:
-     ~azure.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
+     ~microsoft.store.partnercenterservices.models.MicrosoftPartnerSdkContractsV1CommonResourceAttributes
     """
 
     _validation = {
