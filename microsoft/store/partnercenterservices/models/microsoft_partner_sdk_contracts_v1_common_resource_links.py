@@ -23,13 +23,13 @@ class MicrosoftPartnerSdkContractsV1CommonResourceLinks(Model):
     """
 
     _attribute_map = {
-        'self': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
+        'itself': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'next': {'key': 'next', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'previous': {'key': 'previous', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
     }
 
-    def __init__(self, self=None, next=None, previous=None):
+    def __init__(self, itself=None, next=None, previous=None):
         super(MicrosoftPartnerSdkContractsV1CommonResourceLinks, self).__init__()
-        self.self = self
+        self.itself = itself
         self.next = next
         self.previous = previous

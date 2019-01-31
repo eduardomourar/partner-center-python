@@ -27,14 +27,14 @@ class MicrosoftPartnerSdkContractsV1ContractsLinksServiceHealthLinks(Model):
 
     _attribute_map = {
         'follow_up_url': {'key': 'followUpUrl', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
-        'self': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
+        'itself': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'next': {'key': 'next', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'previous': {'key': 'previous', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
     }
 
-    def __init__(self, follow_up_url=None, self=None, next=None, previous=None):
+    def __init__(self, follow_up_url=None, itself=None, next=None, previous=None):
         super(MicrosoftPartnerSdkContractsV1ContractsLinksServiceHealthLinks, self).__init__()
         self.follow_up_url = follow_up_url
-        self.self = self
+        self.itself = itself
         self.next = next
         self.previous = previous
