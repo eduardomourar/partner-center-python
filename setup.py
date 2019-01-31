@@ -8,10 +8,7 @@ from setuptools import setup, find_packages
 NAME = 'partnercenterservices'
 VERSION = '0.1.0'
 
-REQUIRES = [
-    'msrestazure>=0.4.7',
-    'msrest @ https://api.github.com/repos/eduardomourar/msrest-for-python/tarball/master'
-]
+REQUIRES = ['msrestazure>=0.4.7']
 
 with io.open('README.md', 'r') as fh:
     long_description = fh.read()
