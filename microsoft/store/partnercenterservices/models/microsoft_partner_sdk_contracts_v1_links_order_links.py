@@ -29,14 +29,14 @@ class MicrosoftPartnerSdkContractsV1LinksOrderLinks(Model):
 
     _attribute_map = {
         'provisioning_status': {'key': 'provisioningStatus', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
-        'self': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
+        'itself': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'next': {'key': 'next', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'previous': {'key': 'previous', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
     }
 
-    def __init__(self, provisioning_status=None, self=None, next=None, previous=None):
+    def __init__(self, provisioning_status=None, itself=None, next=None, previous=None):
         super(MicrosoftPartnerSdkContractsV1LinksOrderLinks, self).__init__()
         self.provisioning_status = provisioning_status
-        self.self = self
+        self.itself = itself
         self.next = next
         self.previous = previous

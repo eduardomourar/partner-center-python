@@ -36,16 +36,16 @@ class MicrosoftPartnerSdkContractsV1ContractsLinksManagedServiceLinks(Model):
         'admin_service': {'key': 'adminService', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'service_health': {'key': 'serviceHealth', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'service_ticket': {'key': 'serviceTicket', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
-        'self': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
+        'itself': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'next': {'key': 'next', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'previous': {'key': 'previous', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
     }
 
-    def __init__(self, admin_service=None, service_health=None, service_ticket=None, self=None, next=None, previous=None):
+    def __init__(self, admin_service=None, service_health=None, service_ticket=None, itself=None, next=None, previous=None):
         super(MicrosoftPartnerSdkContractsV1ContractsLinksManagedServiceLinks, self).__init__()
         self.admin_service = admin_service
         self.service_health = service_health
         self.service_ticket = service_ticket
-        self.self = self
+        self.itself = itself
         self.next = next
         self.previous = previous

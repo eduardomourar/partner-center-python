@@ -31,15 +31,15 @@ class MicrosoftPartnerSdkContractsV1LinksTransferEntityLinks(Model):
     _attribute_map = {
         'order': {'key': 'order', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'subscription': {'key': 'subscription', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
-        'self': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
+        'itself': {'key': 'self', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'next': {'key': 'next', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
         'previous': {'key': 'previous', 'type': 'MicrosoftPartnerSdkContractsV1CommonLink'},
     }
 
-    def __init__(self, order=None, subscription=None, self=None, next=None, previous=None):
+    def __init__(self, order=None, subscription=None, itself=None, next=None, previous=None):
         super(MicrosoftPartnerSdkContractsV1LinksTransferEntityLinks, self).__init__()
         self.order = order
         self.subscription = subscription
-        self.self = self
+        self.itself = itself
         self.next = next
         self.previous = previous
