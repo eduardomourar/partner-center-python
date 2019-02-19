@@ -6,7 +6,7 @@ import io
 from setuptools import setup, find_packages
 
 NAME = 'partnercenterservices'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 REQUIRES = ['msrestazure>=0.4.7']
 
