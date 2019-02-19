@@ -94,14 +94,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription', response)
 
         if raw:
@@ -170,14 +170,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1Customer', response)
 
         if raw:
@@ -259,14 +259,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole', response)
 
         if raw:
@@ -347,14 +347,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsRoleManagementDirectoryRole', response)
 
         if raw:
@@ -423,14 +423,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesUsageInsights', response)
 
         if raw:
@@ -499,14 +499,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsAnalyticsCustomerLicensesDeploymentInsights', response)
 
         if raw:
@@ -575,14 +575,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1OfferCategory', response)
 
         if raw:
@@ -663,14 +663,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer', response)
 
         if raw:
@@ -743,14 +743,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Offer', response)
 
         if raw:
@@ -818,14 +818,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CustomerBillingProfile', response)
 
         if raw:
@@ -893,14 +893,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CustomerCompanyProfile', response)
 
         if raw:
@@ -969,14 +969,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1UsageManagementCustomerUsageSummary', response)
 
         if raw:
@@ -1045,14 +1045,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ManagedService', response)
 
         if raw:
@@ -1120,14 +1120,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1UsageManagementSpendingBudget', response)
 
         if raw:
@@ -1197,14 +1197,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1PartnerRelationship', response)
 
         if raw:
@@ -1275,14 +1275,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1ServiceRequest', response)
 
         if raw:
@@ -1363,14 +1363,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceRequest', response)
 
         if raw:
@@ -1444,14 +1444,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UserLicenseManagementSubscribedSku', response)
 
         if raw:
@@ -1527,14 +1527,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1UserLicenseManagementLicense', response)
 
         if raw:
@@ -1631,14 +1631,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1CustomerUser', response)
 
         if raw:
@@ -1709,14 +1709,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CustomerUser', response)
 
         if raw:
@@ -1788,14 +1788,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Membership', response)
 
         if raw:
@@ -1863,14 +1863,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1DeviceDeploymentDeviceBatch', response)
 
         if raw:
@@ -1942,14 +1942,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1DeviceDeploymentBatchUploadDetails', response)
 
         if raw:
@@ -2019,14 +2019,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('[MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice]', response)
 
         if raw:
@@ -2093,14 +2093,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('[MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy]', response)
 
         if raw:
@@ -2172,14 +2172,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy', response)
 
         if raw:
@@ -2259,14 +2259,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Order', response)
 
         if raw:
@@ -2338,14 +2338,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1Order', response)
 
         if raw:
@@ -2419,14 +2419,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ServiceHealthServiceIncidentDetail', response)
 
         if raw:
@@ -2498,14 +2498,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1SubscriptionProvisioningStatus', response)
 
         if raw:
@@ -2577,14 +2577,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1SubscriptionRegistrationStatus', response)
 
         if raw:
@@ -2662,14 +2662,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1Subscription', response)
 
         if raw:
@@ -2741,14 +2741,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1Subscription', response)
 
         if raw:
@@ -2820,14 +2820,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsConversion', response)
 
         if raw:
@@ -2898,14 +2898,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact', response)
 
         if raw:
@@ -2977,14 +2977,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SubscriptionsUpgrade', response)
 
         if raw:
@@ -3056,14 +3056,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1UsageManagementSubscriptionUsageSummary', response)
 
         if raw:
@@ -3135,14 +3135,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementAzureResourceMonthlyUsageRecord', response)
 
         if raw:
@@ -3214,14 +3214,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionDailyUsageRecord', response)
 
         if raw:
@@ -3291,14 +3291,14 @@ class GetvversioncustomerscustomerOperations(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementSubscriptionMonthlyUsageRecord', response)
 
         if raw:
@@ -3408,7 +3408,7 @@ class GetvversioncustomerscustomerOperations(object):
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureUtilizationRecord', response)
         if response.status_code == 204:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1ContractsUtilizationsAzureUtilizationRecord', response)
