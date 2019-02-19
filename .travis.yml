@@ -1,5 +1,9 @@
 language: python
 sudo: false
+
+stages:
+  - deploy
+
 credentials:
   - &pypi
     provider: pypi
@@ -16,20 +20,46 @@ python:
   - '3.6'
 script:
   - python setup.py install
-deploy:
-  - <<: *pypi
-    distributions: bdist_egg
-    on:
-      python: '2.7'
-  - <<: *pypi
-    distributions: bdist_egg
-    on:
-      python: '3.4'
-  - <<: *pypi
-    distributions: bdist_egg
-    on:
-      python: '3.5'
-  - <<: *pypi
-      distributions: sdist bdist_wheel
-    on:
+
+jobs:
+  include:
+    - &deploy
+      stage: deploy
+      name: 'modern distributions'
       python: '3.6'
+      install:
+      - pip install -U pip setuptools wheel
+      # script: skip
+      deploy:
+        <<: *pypi
+        distributions: 'sdist bdist_wheel'
+
+    - <<: *deploy
+      name: 'python eggs 2.7'
+      python: '2.7'
+      deploy:
+        <<: *pypi
+        distributions: 'bdist_egg'
+    - <<: *deploy
+      name: 'python eggs 3.4'
+      python: '3.4'
+      deploy:
+        <<: *pypi
+        distributions: 'bdist_egg'
+    - <<: *deploy
+      name: 'python eggs 3.5'
+      python: '3.5'
+      deploy:
+        <<: *pypi
+        distributions: 'bdist_egg'
+    - <<: *deploy
+      name: 'python eggs 3.6'
+      python: '3.6'
+      deploy:
+        <<: *pypi
+        distributions: 'bdist_egg'
+
+cache:
+  directories:
+  - $HOME/.cache/pip
+  - $HOME/.cache/pre-commit
