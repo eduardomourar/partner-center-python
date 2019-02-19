@@ -285,14 +285,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CountryValidationRules', response)
 
         if raw:
@@ -364,14 +364,14 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1Customer', response)
 
         if raw:
@@ -437,14 +437,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsPagedResourceCollectionMicrosoftPartnerSdkContractsV1UsageManagementCustomerMonthlyUsageRecord', response)
 
         if raw:
@@ -509,14 +509,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.head(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('bool', response)
 
         if raw:
@@ -581,14 +581,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1FlightInsiderProgram', response)
 
         if raw:
@@ -660,14 +660,14 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1FlightInsiderProgram', response)
 
         if raw:
@@ -746,7 +746,7 @@ class MicrosoftPartnerStoreApis(object):
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1MigrationSyndicationMigration', response)
         if response.status_code == 202:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1MigrationSyndicationMigration', response)
@@ -817,14 +817,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus', response)
 
         if raw:
@@ -897,14 +897,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1MigrationSyndicationMigrationStatus', response)
 
         if raw:
@@ -970,14 +970,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesDeploymentInsights', response)
 
         if raw:
@@ -1043,14 +1043,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsAnalyticsPartnerLicensesUsageInsights', response)
 
         if raw:
@@ -1115,14 +1115,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1OrganizationProfile', response)
 
         if raw:
@@ -1194,14 +1194,14 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1OrganizationProfile', response)
 
         if raw:
@@ -1273,14 +1273,14 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1LegalBusinessProfile', response)
 
         if raw:
@@ -1345,14 +1345,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1SupportProfile', response)
 
         if raw:
@@ -1424,14 +1424,14 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1SupportProfile', response)
 
         if raw:
@@ -1496,14 +1496,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1BillingProfile', response)
 
         if raw:
@@ -1575,14 +1575,14 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1BillingProfile', response)
 
         if raw:
@@ -1648,14 +1648,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1UsageManagementPartnerUsageSummary', response)
 
         if raw:
@@ -1717,14 +1717,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('[str]', response)
 
         if raw:
@@ -1792,14 +1792,14 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('[str]', response)
 
         if raw:
@@ -1865,14 +1865,14 @@ class MicrosoftPartnerStoreApis(object):
         request = self._client.get(url, query_parameters)
         response = self._client.send(request, header_parameters, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CollectionsResourceCollectionMicrosoftPartnerSdkContractsV1SupportTopic', response)
 
         if raw:
@@ -1923,7 +1923,7 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
@@ -1992,7 +1992,7 @@ class MicrosoftPartnerStoreApis(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp

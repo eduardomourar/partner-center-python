@@ -97,14 +97,14 @@ class PutvversioncustomerscustomerOperations(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1CustomerBillingProfile', response)
 
         if raw:
@@ -185,14 +185,14 @@ class PutvversioncustomerscustomerOperations(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1DeviceDeploymentDevice', response)
 
         if raw:
@@ -271,14 +271,14 @@ class PutvversioncustomerscustomerOperations(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1DeviceDeploymentConfigurationPolicy', response)
 
         if raw:
@@ -356,14 +356,14 @@ class PutvversioncustomerscustomerOperations(object):
         response = self._client.send(
             request, header_parameters, body_content, stream=False, **operation_config)
 
-        if response.status_code not in [200, 400, 401, 403, 404, 500]:
+        if response.status_code not in [200, 201, 400, 401, 403, 404, 500]:
             exp = CloudError(response)
             exp.request_id = response.headers.get('x-ms-request-id')
             raise exp
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('MicrosoftPartnerSdkContractsV1SubscriptionsSupportContact', response)
 
         if raw:

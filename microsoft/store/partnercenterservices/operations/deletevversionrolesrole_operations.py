@@ -100,7 +100,7 @@ class DeletevversionrolesroleOperations(object):
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('object', response)
 
         if raw:
@@ -177,7 +177,7 @@ class DeletevversionrolesroleOperations(object):
 
         deserialized = None
 
-        if response.status_code == 200:
+        if response.status_code in [200, 201]:
             deserialized = self._deserialize('object', response)
 
         if raw:
