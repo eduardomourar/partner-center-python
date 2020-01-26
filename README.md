@@ -1,6 +1,6 @@
 # Partner Center Python SDK
 
-[![Build Status](https://travis-ci.com/eduardomourar/partner-center-python.svg?branch=master)](https://travis-ci.com/eduardomourar/partner-center-python)
+[![Build Status](https://travis-ci.com/eduardomourar/partner-center-python.svg?branch=master)](https://travis-ci.com/eduardomourar/partner-center-python) [![Latest Version](https://img.shields.io/pypi/v/partnercenterservices.svg)](https://pypi.python.org/pypi/partnercenterservices) [![Python Support](https://img.shields.io/pypi/pyversions/partnercenterservices.svg)](https://pypi.python.org/pypi/partnercenterservices)
 
 The Partner Center Python SDK provides an SDK to interact with [Microsoft's Partner Center service](https://apidocs.microsoft.com/services/partnercenterservice). This enables the partners to perform the Partner Center operations programmatically.
 
